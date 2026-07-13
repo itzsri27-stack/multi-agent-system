@@ -1,27 +1,46 @@
------> Project 3: Multi-Agent System (Wiki + Weather)
+ ---->  Project 3: Multi-Agent System (Wiki + Weather)
 
-This project has:
+## Overview :
+This project is a Python-based Multi-Agent System that demonstrates how multiple intelligent agents 
+can work together to answer different types of user queries. A central Controller Agent analyzes the user's request 
+and routes it to the appropriate specialized agent.
 
-     - Wiki Agent → fetches Wikipedia summaries.
+## Features :
+- 📚 Wikipedia Agent – Retrieves concise summaries from Wikipedia.
+- 🌤️ Weather Agent – Fetches live weather information using the OpenWeatherMap API.
+- 🧠 Controller Agent – Determines which agent should handle the user's query.
+- ⚡ Simple and modular architecture for handling multiple tasks.
 
-     - Weather Agent → fetches live weather from OpenWeatherMap.
+## Technologies Used
+- Python
+- Jupyter Notebook / Google Colab
+- Wikipedia API
+- OpenWeatherMap API
 
-     - Controller → decides which agent answers.
+## Project Structure
+```
+Project3_MultiAgentSystem/
+├── infobot.ipynb
+└── README.md
+```
 
-How to run:
+## How to Run
+1. Open `infobot.ipynb` in Google Colab or Jupyter Notebook.
+2. Replace `"YOUR_API_KEY_HERE"` with your OpenWeatherMap API key.
+3. Run all the notebook cells.
+4. Enter a query and let the controller choose the appropriate agent.
 
-     1. Open infobot.ipynb in Google Colab.
+## Sample Queries
+- Weather in Coimbatore
+- Weather in Chennai
+- Who is Elon Musk?
+- Who is Thalapathy Vijay?
 
-     2. Replace "YOUR_API_KEY_HERE" with your OpenWeatherMap key.
+## Future Improvements
+- Add support for more specialized agents.
+- Improve query classification.
+- Develop a web interface using Flask or Streamlit.
+- Integrate additional APIs for richer responses.
 
-     3. Run all cells.
-
-     4. Sample queries include:
-
-             - "weather in Coimbatore"
-
-             - "Weather in Chennai"
-
-             - "Who is Thalapathi Vijay"
-
-             - "Who is Elon Musk"
+## Author
+Yuvasri
